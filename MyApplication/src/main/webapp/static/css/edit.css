@@ -1,0 +1,102 @@
+
+.mynav{
+	background-color: #6c757d!important;
+
+}
+
+
+
+.navbar-brand{
+
+
+    font-size: 48px;
+   
+    margin-top: -25px;
+
+}
+.mynav a {
+	margin-right: 30px;
+	color:black !important;
+	border-bottom: 2px solid transparent;
+
+
+}
+.mynav a:hover{
+	border-bottom: 2px solid #343a40;
+
+	
+}
+.active a{
+border-bottom: 2px solid #343a40;
+
+}
+.mrt a{
+	background: #343a40;
+    color: white !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    box-shadow: 3px 3px 5px #777 transparent;
+}
+.mrt a:hover{
+	background:#181174;
+    
+    box-shadow:none;
+}
+@media only screen and (max-width: 1140px){
+	.navbar-brand{
+		margin-left: 10px
+	}
+}
+@media only screen and (max-width: 991px){
+	.mrt a{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+/* Slider Section*/
+.carousel-caption{
+	
+	margin-bottom: 15%
+	/*background: powderblue;*/
+	padding: 50px 100px;
+	
+}
+.carousel-caption h5{
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.carousel-caption p{
+	font-size: 20px;
+}
+.drk:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom:0;
+	left: 0;
+	right:0;
+	background:#000;
+	opacity: 0.5;  
+
+}
+.ccd{
+	background: rgba(0,0,0,0.6);
+}
+
+
+/* Buttons style*/
+.btn-primary{
+	background:red;
+	border-color:transparent !important;
+	color: #fff  !important;
+	border-radius: 50px;
+	padding: 10px 10px !important;
+	
+	width: 200px;
+	text-align: center;
+}
+.btn-primary{
+	background:blue;
+
+}
